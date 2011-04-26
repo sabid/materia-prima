@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<USERS>
+	
+	<USER NAME="reelDefault">
+
+		<difficulty> 2 </difficulty>
+		<iconSize> 64 </iconSize>
+		<controlMode> 5 </controlMode>
+
+		<yesColor> 51ce19 </yesColor>
+		<noColor> b70909 </noColor>
+		
+		<iconColor> 0x000000 </iconColor>
+		<discColor> 0xfffff </discColor>
+		<bgColor> 0xffffff </bgColor>
+
+	</USER>
+	
+	<USER NAME="default">
+
+		<difficulty> 2 </difficulty>
+		<controlMode> 5 </controlMode>
+
+		<sound> true </sound>
+		<info> true </info>
+
+		<itemSize> 64 </itemSize>
+		<fontSize> 16 </fontSize>
+
+
+		<iconColor> 0x000000 </iconColor>
+		<discColor> 0xffffff </discColor>
+
+
+		<yesColor> 0x51ce19 </yesColor>
+		<noColor> 0xb70909 </noColor>
+		<upColor> 0x51ce19 </upColor>
+		<downColor> 0xb70909 </downColor>
+		<leftColor> 0x51ce19 </leftColor>
+		<rightColor> b70909 </rightColor>
+		
+	</USER>
+	
+</USERS>

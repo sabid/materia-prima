@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<INFO>
+
+	<CONTROLS>
+	
+		<CONTROL NAME="Eingabegerät">
+		
+			<controlType> WheelOfChoice </controlType>
+			<iconFile> controlMode.png </iconFile>
+			
+			<switchVar> controlMode </switchVar>
+			<varLocation> main </varLocation>
+			
+			<vals> 
+				<val> 0 </val>
+				<val> 1 </val>
+				<val> 2 </val>
+				<val> 3 </val>
+				<val> 4 </val>
+				<val> 5 </val>
+			</vals>
+
+			<infoText> Damit kann man umstellen, mit welchen Knöpfen das Programm gesteuert wird. </infoText>
+			
+		</CONTROL>
+	
+		
+	
+	</CONTROLS>
+
+	<TEXT> Diese Einstellungen haben damit zu tun, wie das Programm gesteuert wird. </TEXT>
+
+</INFO>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PLAYLIST>
+<SOUND URL="Audio\level 1.mp3" NAME="Geige"/>
+<SOUND URL="Audio\level 2.mp3" NAME="Klarinette"/>
+<SOUND URL="Audio\level 3.mp3" NAME="Klavier"/>
+<SOUND URL="Audio\level 4.mp3" NAME="Pauke"/>
+<SOUND URL="Audio\level 5.mp3" NAME="Trompete"/>
+<SOUND URL="Audio\level 6.mp3" NAME="Xylophon"/>
+</PLAYLIST>

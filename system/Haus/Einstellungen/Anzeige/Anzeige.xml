@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<INFO>
+
+	<CONTROLS>
+	
+		<CONTROL NAME="Symbolfarbe">
+		
+			<controlType> WheelOfChoice </controlType>
+			<iconFile> iconColor.png </iconFile>
+			
+			<switchVar> iconColor </switchVar>
+			<varLocation> main </varLocation>
+			
+			<vals> 
+				<val> 0x000000 </val>
+				<val> 0x00008B </val>
+				<val> 0x006400 </val>
+				<val> 0x8B0000 </val>
+				<val> 0xffffff </val>
+			</vals>
+
+			<infoText> Damit kann man die Farbe der Symbole umstellen. </infoText>
+			
+		</CONTROL>
+	
+		<CONTROL NAME="Farbklang">
+		
+			<controlType> WheelOfChoice </controlType>
+			<iconFile> colorScheme.png </iconFile>
+			
+			<switchVar> discColor </switchVar>
+			<varLocation> main </varLocation>
+			
+			<vals> 
+				<val> 0x808080 </val>
+				<val> 0xFF6347 </val>
+				<val> 0xDA70D6 </val>
+				<val> 0x87CEFA </val>
+				<val> 0x9ACD32 </val>
+				<val> 0xFFD700 </val>
+				<val> 0xffffff </val>
+			</vals>
+
+			<infoText> Damit kann man die Farbe der Knöpfe und des Hintergrunds umstellen. </infoText>
+			
+		</CONTROL>
+
+		<CONTROL NAME="Symbolgröße">
+		
+			<controlType> WheelOfChoice </controlType>
+			<iconFile> itemSize.png </iconFile>
+			
+			<switchVar> itemSize </switchVar>
+			<varLocation> main </varLocation>
+			
+			<vals> 
+				<val> 32 </val>
+				<val> 48 </val>
+				<val> 64 </val>
+				<val> 80 </val>
+				<val> 96 </val>
+				<val> 112 </val>
+				<val> 128 </val>
+			</vals>
+
+			<infoText> Damit kann man die Größe der Symbole umstellen. </infoText>
+			
+		</CONTROL>
+
+		<CONTROL NAME="Schriftgröße">
+		
+			<controlType> WheelOfChoice </controlType>
+			<iconFile> fontSize.png </iconFile>
+			
+			<switchVar> fontSize </switchVar>
+			<varLocation> main </varLocation>
+			
+			<vals> 
+				<val> 13 </val>
+				<val> 16 </val>
+				<val> 20 </val>
+				<val> 24 </val>
+				<val> 30 </val>
+				<val> 40 </val>
+			</vals>
+
+			<infoText> Damit kann man die Schriftgröße umstellen. </infoText>
+			
+		</CONTROL>
+	
+	</CONTROLS>
+
+	<TEXT> Diese Einstellungen haben mit dem Bildschirm und den Farben zu tun. </TEXT>
+
+</INFO>

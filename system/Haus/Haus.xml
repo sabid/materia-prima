@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<INFO>
+
+
+
+	<LINKS>
+	
+		<LINK NAME="Pictures">     
+			
+			<icon> pictures.png </icon>
+			<dir> userDirectory </dir>
+			
+			<wheel> PictureWheel </wheel>
+			<path> Pictures </path>
+
+			<infoText> Deine Bilder und Fotos. </infoText>
+		
+		</LINK>
+		
+		<LINK NAME="My Pictures">     
+			
+			<icon> pictures.png </icon>
+			<dir> userDirectory </dir>
+			
+			<wheel> PictureWheel </wheel>
+			<path> My Documents/My Pictures </path>
+
+			<infoText> Deine Bilder und Fotos. </infoText>
+		
+		</LINK>
+		
+		<LINK NAME="Music">     
+			
+			<icon> music.png </icon>
+			
+			<wheel> MusicWheel </wheel>
+			
+			<dir> userDirectory </dir>
+			<path> Music </path>
+
+			<infoText> Deine Musik. </infoText>
+		
+		</LINK>
+		
+		<LINK NAME="My Music">     
+			
+			<icon> music.png </icon>
+			
+			<wheel> MusicWheel </wheel>
+
+			<dir> userDirectory </dir>
+			<path> My Documents/My Music </path>
+
+			<infoText> Deine Musik. </infoText>
+		
+		</LINK>
+		
+	</LINKS>
+	
+
+	
+	<TEXT> Dort kannst Du entscheiden, was Du als Nächstes tun willst. </TEXT>
+
+
+
+</INFO>
