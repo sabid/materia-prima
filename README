@@ -1,13 +1,13 @@
 Materia Prima README
 
 (DEU)
-Materia Prima ist ein neuartiges Konzept einer grafischen Benutzeroberfläche, die es Jedem 
-erlaubt, einen PC zu bedienen. Materia Prima ist weitestgehend unabhängig von Barrieren wie 
-benötigtem Vorwissen, Sprache, körperlichen Beeinträchtigungen oder kognitiven Schwächen. 
-Diese Oberfläche ist als Plattform, in erster Linie für Spiele und Unterhaltungsmedien, aber 
-auch für andere Anwendungen konzepiert worden, die sowohl technisch als auch inhaltlich 
-ebenfalls eine möglichst hohe Barrierearmut aufweisen.
+Materia Prima ist ein neuartiges Konzept einer grafischen Benutzeroberflaeche, die es Jedem 
+erlaubt, einen PC zu bedienen. Materia Prima ist weitestgehend unabhaengig von Barrieren wie 
+benoetigtem Vorwissen, Sprache, koerperlichen Beeintraechtigungen oder kognitiven Schwaechen. 
+Diese Oberflaeche ist als Plattform, in erster Linie fuer Spiele und Unterhaltungsmedien, aber 
+auch fuer andere Anwendungen konzepiert worden, die sowohl technisch als auch inhaltlich 
+ebenfalls eine moeglichst hohe Barrierearmut aufweisen.
 
-Materia Prima wurde komplett mit ActionScript entwickelt und ist somit Plattformunabhängig. 
-Sie benötigen lediglich den Adobe AIR Plugin, den Sie hier [ http://www.adobe.com] herunterladen
-können.
+Materia Prima wurde komplett mit ActionScript entwickelt und ist somit Plattformunabhaengig. 
+Sie benoetigen lediglich den Adobe AIR Plugin, den Sie hier [ http://www.adobe.com] herunterladen
+koennen.
