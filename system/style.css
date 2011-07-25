@@ -1,0 +1,29 @@
+global 
+{
+	font-family: Frutiger LT Std 55 Roman;
+}
+
+
+p
+{
+	font-family: Frutiger LT Std 55 Roman;
+}
+
+
+p.bold 
+{
+	font-style: 65 Bold;
+}
+
+
+p.italic 
+{
+	font-style: 56 Italic;
+}
+
+
+
+.headline 
+{
+	font-family: Frutiger LT Std 55 Roman;
+}
