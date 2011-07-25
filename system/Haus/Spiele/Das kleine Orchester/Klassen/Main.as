@@ -5,11 +5,15 @@
 	import flash.net.*;
 	import flash.media.*;
 	import flash.utils.*;
+	import org.osmf.utils.URL;
 	
-	private class Main extends MovieClip 
+	
+	public class Main extends MovieClip 
 	{
 		private var sound:Sound = new Sound();
 		private var kanal:SoundChannel = new SoundChannel();
+		
+		private var soundURL:String;			
 		
 		private var soundLoader:URLLoader = new URLLoader();
 		private var soundListe:XMLList;
@@ -41,32 +45,32 @@
 			this.geige = new Geige(this, 0);
 			this.addChild(geige);
 			this.geige.x = 25;
-			this.geige.y = 550;
+			this.geige.y = 25;
 			
 			this.klarinette = new Klarinette(this, 1);
 			this.addChild(klarinette);
 			this.klarinette.x = 180;
-			this.klarinette.y = 550;
+			this.klarinette.y = 25;
 			
 			this.trompete = new Trompete(this, 4);
 			this.addChild(trompete);
 			this.trompete.x = 335;
-			this.trompete.y = 550;
+			this.trompete.y = 25;
 			
 			this.pauke = new Pauke(this, 3);
 			this.addChild(pauke);
 			this.pauke.x = 490;
-			this.pauke.y = 550;
+			this.pauke.y = 25;
 			
 			this.xylophon = new Xylophon(this, 5);
 			this.addChild(xylophon);
 			this.xylophon.x = 645;
-			this.xylophon.y = 550;
+			this.xylophon.y = 25;
 			
 			this.klavier = new Klavier(this, 2);
 			this.addChild(klavier);
 			this.klavier.x = 800;
-			this.klavier.y = 550;
+			this.klavier.y = 25;
 		}
 		
 		private function soundAuslesen(e:Event)
@@ -82,7 +86,7 @@
 		
 		private function instrumentWechseln(neuesInstrumentIn)
 		{
-			var soundURL = this.soundListe[neuesInstrumentIn].@URL;
+			soundURL = this.soundListe[neuesInstrumentIn].@URL;
 			
 			this.instrument = this.soundListe[neuesInstrumentIn].@NAME;
 			
@@ -101,7 +105,7 @@
 			this.sound.removeEventListener(Event.COMPLETE, abspielen);
 		}
 		
-		private function lösen(instrumentIn, indexIn, auslöserIn)
+		public function lösen(instrumentIn, indexIn, auslöserIn)
 		{
 			var auslöser = auslöserIn;
 			

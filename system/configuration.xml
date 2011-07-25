@@ -26,7 +26,7 @@
 		<info> true </info>
 
 		<itemSize> 64 </itemSize>
-		<fontSize> 16 </fontSize>
+		<fontSize> 12 </fontSize>
 
 
 		<iconColor> 0x000000 </iconColor>

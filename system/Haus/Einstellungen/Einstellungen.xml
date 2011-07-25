@@ -4,8 +4,24 @@
 
 
 	
-	<TEXT> Hier kann man alle Einstellungen ändern. </TEXT>
+	<TEXT> 
+		<h1>Einstellungen</h1>
+
+		<p id = "p" >Damit können viele Dinge im Programm eingestellt werden.</p>
+	</TEXT>
 
 
 
 </INFO>
+
+
+
+
+
+
+
+
+
+
+
+	
